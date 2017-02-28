@@ -1,0 +1,143 @@
+*{	
+	margin: 0;
+}
+#root{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#sidebar{
+	position: absolute;
+	width: 15%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #242427;
+	float: left;
+}
+#sidebar >div{
+	color: #d0c6c6;
+	margin: 20px 0px;
+	cursor: pointer;
+	padding-left: 15px;
+}
+.categorie:after{
+	content: '\276F'
+}
+.categorie_open:after{
+	content: '\2228'
+}
+.sub_cat{
+    padding-top: 10px;
+	color: white;
+}
+.sub_cat>div{
+	padding: 10px 25px;
+	cursor: pointer;
+}
+._btn{
+	background: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+	float: left;
+	margin: 0 10px;
+	cursor: pointer;
+	color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+}
+#mainpanel{
+	width: 85%;
+	height: 100%;
+	float: left;
+	left: 15%;
+    position: absolute;
+}
+.mainpnl100{
+	width: 100% !important;
+	left: 0 !important;
+}
+#tabheader{
+	width: 100%;
+	border-bottom: 2px solid lightgray;
+    margin-top: 20px;
+	height: 50px;
+}#sh_btn{
+	transform: rotate(90deg);
+    padding-bottom: 2px;
+}
+#content{
+	margin-left: 30px;
+}
+#subcat{
+	font-size: 2.5em;
+    margin-top: 40px;
+}
+#tb{
+	margin: 40px 0;
+    font-size: 1.5em;
+	color: #797676;
+}
+#text{
+	font-size: 1.1em;
+}
+.tab{
+	color: #797676;
+	font-weight: bold;
+	float: left;
+	padding: 0px 20px;
+    height: 50px;
+	cursor: pointer;
+}
+.sel_tab{
+	color: black;
+	border-bottom: 3px solid #5ad25a;
+}
+.sel_subcat{
+	background: black;
+	color: white !important;
+	font-weight: bold;
+	border-right: 3px solid #5ad25a;
+}
+.frm_bckg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.frm{
+	position: absolute;
+	font-size: 1.5em;
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	left: 25%;
+	background: white;
+	padding: 50px;
+}
+.tabname, .tabtext{
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 10px;
+}
+.tabname input{
+	width: 50%;
+}
+.tabtext{
+	margin-top: 30px;
+}
+.tabtext textarea{
+	width: 100%;
+}
+.frmbtns{
+	text-align:center;
+}
+.frmbtns button{
+	margin: 20px;
+	font-size: 0.8em;
+	padding: 10px;
+	width: 150px;
+}
